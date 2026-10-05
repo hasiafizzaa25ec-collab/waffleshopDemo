@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-warm-bg: #FAF7F2;
+  --color-warm-surface: #FFFFFF;
+  --color-warm-border: #EADBCC;
+  --color-warm-accent: #B85D19;
+  --color-warm-espresso: #24211E;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+

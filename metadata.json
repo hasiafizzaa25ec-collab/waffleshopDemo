@@ -1,0 +1,6 @@
+{
+  "name": "Maison de la Gaufre - Artisanal Waffle House",
+  "description": "Authentic Belgian Liege & Brussels waffles baked fresh with pearl sugar, organic heritage grains, and house-made artisan toppings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
