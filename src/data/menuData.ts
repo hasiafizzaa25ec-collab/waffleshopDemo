@@ -1,13 +1,20 @@
 import { WaffleItem, ToppingOption } from '../types/waffle';
 
-// Image paths generated from Phase 1
+// Image imports for proper Vite bundling in production & GitHub Pages
+import heroImg from '../assets/images/hero_artisanal_waffle_1791195527306.jpg';
+import classicLiegeImg from '../assets/images/waffle_classic_liege_1791195685798.jpg';
+import savoryBrunchImg from '../assets/images/waffle_savory_brunch_1791195700034.jpg';
+import berryChantillyImg from '../assets/images/waffle_berry_chantilly_1791195718031.jpg';
+import bakeryPressImg from '../assets/images/waffle_press_bakery_1791195735925.jpg';
+
 export const IMAGES = {
-  hero: '/src/assets/images/hero_artisanal_waffle_1791195527306.jpg',
-  classicLiege: '/src/assets/images/waffle_classic_liege_1791195685798.jpg',
-  savoryBrunch: '/src/assets/images/waffle_savory_brunch_1791195700034.jpg',
-  berryChantilly: '/src/assets/images/waffle_berry_chantilly_1791195718031.jpg',
-  bakeryPress: '/src/assets/images/waffle_press_bakery_1791195735925.jpg',
+  hero: heroImg,
+  classicLiege: classicLiegeImg,
+  savoryBrunch: savoryBrunchImg,
+  berryChantilly: berryChantillyImg,
+  bakeryPress: bakeryPressImg,
 };
+
 
 export const MENU_ITEMS: WaffleItem[] = [
   {
