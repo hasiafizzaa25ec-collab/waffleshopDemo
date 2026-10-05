@@ -44,6 +44,8 @@ jobs:
 
       - name: Build application with Vite
         run: npm run build
+        env:
+          BASE_URL: /Waffleshopdemo/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
